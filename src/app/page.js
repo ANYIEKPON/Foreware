@@ -18,7 +18,7 @@ export default function Home() {
               <button>Learn More</button>
             </div>
             <div className={styles.rightside}>
-              <Image className={styles.pageImge} src={pic} />
+              <Image className={styles.pageImge} src={pic} alt="img"/>
             </div>
         </div>
         <div className={styles.secondSection}> 

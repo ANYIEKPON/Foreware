@@ -54,7 +54,7 @@ const Footer = () => {
                 <input placeholder="enter your mail" />
                 <button><BsArrowRight /></button>
               </div>
-              <span>Your email is safe with us. We don't spam.</span>
+              <span>Your email is safe with us. We don&apos;t spam.</span>
           </div>
         </div>
         <div className={styles.bottom}>
