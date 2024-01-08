@@ -7,7 +7,7 @@ import { CiMenuFries } from "react-icons/ci";
 import { LuFacebook } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaLinkedinIn, FaGooglePlusG } from "react-icons/fa";
-import { BsArrowRight } from "react-icons/bs";
+import { MdClose } from "react-icons/md";
 import Link from 'next/link';
 
 const Header = () => {
@@ -34,7 +34,7 @@ const [openNav, setOpenNav] = useState(false);
             </div>
             }
           </div>
-          <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}><CiMenuFries /></div>
+          <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}>{openNav ? <MdClose size={20} /> : <CiMenuFries size={20} />}</div>
       </div>
 
     </div>
