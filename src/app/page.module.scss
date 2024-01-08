@@ -1,0 +1,88 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f7ff;
+    padding: 20px 0px;
+    width: 100%;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        max-width: 80%;
+       
+        .firstsection{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 120px;
+            padding: 15px 0px;
+
+            .leftside{
+                display: flex;
+                flex-direction: column;
+                flex: 3;
+                flex-wrap: wrap;
+                gap: 10px;
+                
+                span{
+                    color: #666768;
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+    
+                h1{
+                    margin: 0px;
+                    width: 470px;
+                    font-size: 40px;
+    
+                    span{
+                        color: #017dfc;
+                        font-size: 40px;
+                    }
+                   
+                }
+    
+                p{
+                    width: 500px;
+                    color: #afb0b4;
+                    line-height: 30px;
+                    font-size: 20px;
+                }
+    
+                button{
+                    width: 120px;
+                    border: none;
+                    padding: 18px;
+                    color: white;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    background-color: #509399;
+                    font-size: 15px;
+                }
+            }
+    
+            .rightside{
+                flex: 3;
+            }
+        }
+
+        .secondSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 0px;
+            width: 100%;
+        }
+
+        .thirdSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}

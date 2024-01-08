@@ -1,0 +1,50 @@
+.encrypt{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+
+    .leftEncrypt{
+        flex: 3;
+
+        .encryptImg{
+            // height: 100px;
+            // width: 100px;
+            object-fit: cover;
+        }
+    }
+
+    .rightEncrypt{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            margin: 0;
+            font-size: 35px;
+            span{
+                color: #017dfc;
+            }
+        }
+        p{
+            line-height: 35px;
+            font-size: 18px;
+            color: #939fb1;
+        }
+
+        button{
+            border: none;
+            padding: 25px;
+            background-color: #509399;
+            color: white;
+            font-size: 17px;
+            width:fit-content;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+    }
+}
