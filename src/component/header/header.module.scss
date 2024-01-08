@@ -44,6 +44,129 @@ $big: 1024px;
 $large: 1200px;
 $veryBig: 1536px;
 
+@media (max-width: $medium) {
+    .wrapper{
+
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+
+            .nav_logo{
+
+                .img{
+                    height: 50px;
+                    width: 100px;
+                    text-decoration: none;
+                }
+            }
+
+            .showMenu{
+                display: none;
+                // flex-direction: column;
+                // background-color: white;
+                // width: 100%;
+                // position: absolute;
+                // top: 100%;
+                // left: -20px;
+                // transition: 0.8 ease-in-out;
+                // gap: 15px;
+                // padding: 20px;
+                // color: #bc7920;
+
+                .socialMedia{
+                    display: flex;
+                    width: 50%;
+                    justify-content: space-around;
+    
+                    .socialIcon{
+                        display: flex;
+                        width: 30px;
+                        height: 30px;
+                        background-color: #509399;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+                }
+            }
+
+            .breadMenu{
+                display: none;
+                // cursor: pointer;
+            }
+            .nav_menu{
+                display: flex;
+                gap: 20px;
+                font-size: 14px;
+                color: #bc7920;
+            
+            }
+        }
+    }
+}
+
+@media (max-width: $semiMedium) {
+    .wrapper{
+
+
+        .navbar{
+            position: relative;
+
+            .nav_logo{
+
+                .img{
+                    height: 50px;
+                    width: 100px;
+                    text-decoration: none;
+                }
+            }
+
+            .showMenu{
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: -20px;
+                transition: 0.8 ease-in-out;
+                gap: 15px;
+                padding: 20px;
+                color: #bc7920;
+
+                .socialMedia{
+                    display: flex;
+                    width: 50%;
+                    justify-content: space-around;
+    
+                    .socialIcon{
+                        display: flex;
+                        width: 30px;
+                        height: 30px;
+                        background-color: #509399;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+                }
+            }
+
+            .breadMenu{
+                display: block;
+                cursor: pointer;
+            }
+            .nav_menu{
+                display: none;
+            }
+        }
+    }
+}
+
 @media (max-width: $small) {
     .wrapper{
 
@@ -72,6 +195,23 @@ $veryBig: 1536px;
                 gap: 15px;
                 padding: 20px;
                 color: #bc7920;
+
+                .socialMedia{
+                    display: flex;
+                    width: 50%;
+                    justify-content: space-around;
+    
+                    .socialIcon{
+                        display: flex;
+                        width: 30px;
+                        height: 30px;
+                        background-color: #509399;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+                }
             }
 
             .breadMenu{

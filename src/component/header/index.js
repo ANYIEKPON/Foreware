@@ -4,6 +4,10 @@ import styles from '../header/header.module.scss';
 import Image from 'next/image';
 import pic from "../../../public/slideFore.PNG";
 import { CiMenuFries } from "react-icons/ci";
+import { LuFacebook } from "react-icons/lu";
+import { RiTwitterXFill } from "react-icons/ri";
+import { FaLinkedinIn, FaGooglePlusG } from "react-icons/fa";
+import { BsArrowRight } from "react-icons/bs";
 import Link from 'next/link';
 
 const Header = () => {
@@ -21,6 +25,14 @@ const [openNav, setOpenNav] = useState(false);
             <Link href="/" className="link"><span>Services</span></Link>
             <Link href="/" className="link"><span>Industries</span></Link>
             <Link href="/" className="link"><span>Contact Us</span></Link>
+            {
+              openNav && <div className={styles.socialMedia}>
+              <div className={styles.socialIcon}><LuFacebook /></div>
+              <div className={styles.socialIcon}><RiTwitterXFill /></div>
+              <div className={styles.socialIcon}><FaLinkedinIn /></div>
+              <div className={styles.socialIcon}><FaGooglePlusG /></div>
+            </div>
+            }
           </div>
           <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}><CiMenuFries /></div>
       </div>
