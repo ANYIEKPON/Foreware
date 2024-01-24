@@ -3,7 +3,11 @@ import Image from 'next/image';
 import analytcs  from '../../../public/analytics.ico'
 import website  from '../../../public/website.ico'
 import marketing  from '../../../public/marketing.ico'
+import { FcCustomerSupport } from "react-icons/fc";
 import styles from './services.module.scss';
+import Link from 'next/link';
+
+
 
 const Service = () => {
   return (
@@ -21,12 +25,10 @@ const Service = () => {
         </div>
         <div className={styles.down}>
             <div className={styles.first}>
-                <Image src={website} alt="analytics" className={styles.firstImg} />
-                <h3>Website Design</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus 
-                    error sit voluptatem accusantium doloremque 
-                    laudantium, totam rem.
-                </p>
+                <FcCustomerSupport className={styles.firstImg} />
+                <h3>Product Support</h3>
+                <p>We provide 24x7 support</p>
+                <Link href="/services" className="link"><span className={styles.learn}>+ Learn More</span></Link>
             </div>
             <div className={styles.first}>
                 <Image src={marketing} alt="analytics" className={styles.firstImg} />
