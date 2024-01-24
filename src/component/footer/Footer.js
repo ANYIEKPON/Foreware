@@ -6,6 +6,7 @@ import { LuFacebook } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaLinkedinIn, FaGooglePlusG } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -56,6 +57,7 @@ const Footer = () => {
               </div>
               <span>Your email is safe with us. We don&apos;t spam.</span>
           </div>
+          <Link className="link" href="/contact-us"><button className={styles.btn}>Contact Us</button></Link>
         </div>
         <div className={styles.bottom}>
           <p>&copy; Copyright 2023 - <span>Foreware</span></p>
