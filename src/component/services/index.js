@@ -11,8 +11,12 @@ const Service = () => {
         <div className={styles.top}>
             <span>Our Services</span>
             <h1>How does it work?</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p>Intelligent systems are at the forefront of all that we do at Foreware 
+                Technologies. Our key focus is to find meaningful ways to use technologies
+                 to assist build a sustainable environment for everyone, anywhere. Please 
+                 click below to read more about the technology solutions behind our offerings.
+                  Kindly get in touch with us and let's discuss how your organization can leverage 
+                  technological tools for seamless business operation. 
             </p>
         </div>
         <div className={styles.down}>

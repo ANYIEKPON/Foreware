@@ -12,8 +12,13 @@ export default function Home() {
             <div className={styles.leftside}>
               <span>Whatever business you do</span>
               <h1>Foreware is what your <span>business</span> need</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
+              <p>It is essential for your business to plunge into a realm 
+                with infinite possibilities. At Foreware Technologies, we 
+                offer unique services and state-of-the-art technologies that 
+                give your company a competitive advantage. Our company sets the 
+                industry 's standards, making us a specialist in this area. We value 
+                ourselves on clients loyalty, relentless creativity and an empirical approach. Our team members are IT experts committed to providing prompt and strategic solutions to every type of project. We use our expertise to analyze your pain points and to 
+                provide answers so that your business can run seamlessly. Kindly call us for a demonstration request or chat us. 
               </p>
               <button>Learn More</button>
             </div>
