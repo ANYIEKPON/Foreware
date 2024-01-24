@@ -3,6 +3,7 @@ import styles from './page.module.scss';
 import pic from "../../public/1.png"
 import Service from '../component/services';
 import Encrypt from '../component/encrypt/Encrypt';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -15,12 +16,9 @@ export default function Home() {
               <p>It is essential for your business to plunge into a realm 
                 with infinite possibilities. At Foreware Technologies, we 
                 offer unique services and state-of-the-art technologies that 
-                give your company a competitive advantage. Our company sets the 
-                industry 's standards, making us a specialist in this area. We value 
-                ourselves on clients loyalty, relentless creativity and an empirical approach. Our team members are IT experts committed to providing prompt and strategic solutions to every type of project. We use our expertise to analyze your pain points and to 
-                provide answers so that your business can run seamlessly. Kindly call us for a demonstration request or chat us. 
+                give your company....<Link href="/why-choose-us" className="link"> <span>Read More</span></Link> 
               </p>
-              <button>Learn More</button>
+              {/* <button>Read More</button> */}
             </div>
             <div className={styles.rightside}>
               <Image className={styles.pageImge} src={pic} alt="img"/>

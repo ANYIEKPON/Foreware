@@ -51,18 +51,24 @@
                     color: #afb0b4;
                     line-height: 30px;
                     font-size: 20px;
+                    
+
+                    span{
+                        color: #509399;
+                        cursor: pointer;
+                    }
                 }
     
-                button{
-                    width: 120px;
-                    border: none;
-                    padding: 18px;
-                    color: white;
-                    border-radius: 25px;
-                    cursor: pointer;
-                    background-color: #509399;
-                    font-size: 15px;
-                }
+                // button{
+                //     width: 120px;
+                //     border: none;
+                //     padding: 18px;
+                //     color: white;
+                //     border-radius: 25px;
+                //     cursor: pointer;
+                //     background-color: #509399;
+                //     font-size: 15px;
+                // }
             }
     
             .rightside{
