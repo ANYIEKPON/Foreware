@@ -7,7 +7,7 @@ const Encrypt = () => {
   return (
     <div className={styles.encrypt}>
         <div className={styles.leftEncrypt}>
-            <Image className={styles.encryptImg} src={encrypt} alt="To encrypt" />
+            {/* <Image className={styles.encryptImg} src={encrypt} alt="To encrypt" /> */}
         </div>
         <div className={styles.rightEncrypt}>
             <h1>Data security with <span>256-bit</span> encryption</h1>
