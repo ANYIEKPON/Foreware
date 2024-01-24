@@ -19,7 +19,7 @@ const Service = () => {
                 Technologies. Our key focus is to find meaningful ways to use technologies
                  to assist build a sustainable environment for everyone, anywhere. Please 
                  click below to read more about the technology solutions behind our offerings.
-                  Kindly get in touch with us and let's discuss how your organization can leverage 
+                  Kindly get in touch with us and let&#39;s discuss how your organization can leverage 
                   technological tools for seamless business operation. 
             </p>
         </div>
