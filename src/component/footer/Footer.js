@@ -45,7 +45,7 @@ const Footer = () => {
                 <span>Gallary</span>
             </div>
           </div>
-          <div className={styles.three}>
+          {/* <div className={styles.three}>
               <h4>Newsletter</h4>
               <p>
                 Signup for our newsletter to get the 
@@ -56,8 +56,8 @@ const Footer = () => {
                 <button><BsArrowRight /></button>
               </div>
               <span>Your email is safe with us. We don&apos;t spam.</span>
-          </div>
-          <Link className="link" href="/contact-us"><button className={styles.btn}>Contact Us</button></Link>
+          </div> */}
+          {/* <Link className="link" href="/contact-us"><button className={styles.btn}>Contact Us</button></Link> */}
         </div>
         <div className={styles.bottom}>
           <p>&copy; Copyright 2023 - <span>Foreware</span></p>
