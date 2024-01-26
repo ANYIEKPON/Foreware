@@ -29,6 +29,36 @@
             font-size: 20px;
             color: #bc7920;
             font-weight: 500;
+            
+            .submenu{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                
+                .menuHover{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    cursor: pointer;
+
+                }
+                .subnav{
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    width: 160px;
+                    background-color: #509399;
+                    color: #e2d1bb;
+                    left: 0px;
+                    top: 30px;
+                    gap: 7px;
+                    padding: 25px;
+                    border-radius: 7px;
+                }
+                .noSubnav{
+                    display: none;
+                }
+            }
         }
 
         .breadMenu{
@@ -109,6 +139,7 @@ $veryBig: 1536px;
         }
     }
 }
+
 
 @media (max-width: $semiMedium) {
     .wrapper{
@@ -196,21 +227,64 @@ $veryBig: 1536px;
                 gap: 15px;
                 padding: 20px;
                 color: #bc7920;
+                min-height: 290px;
+                
+
+                .submenu{
+                    display: flex;
+                    flex-direction: column;
+                    // position: relative;
+                    
+                    .menuHover{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        cursor: pointer;
+    
+                    }
+                    .subnav{
+                        display: flex;
+                        flex-direction: column;
+                        // position: absolute;
+                        width: 160px;
+                        // background-color: #509399;
+                        color: #ecc492;
+                        left: 0px;
+                        gap: 7px;
+                        padding: 5px 10px;
+                        border-radius: 7px;
+                    }
+                    .noSubnav{
+                        display: none;
+                    }
+                }
 
                 .socialMedia{
                     display: flex;
+                    // top: 10px;
                     width: 50%;
-                    justify-content: space-around;
+                    justify-content: space-between;
+                    position: relative;
+                    
+                    
+
+                    .info{
+                        display: flex;
+                        position: absolute;
+                        top: 30px;
+                    }
+                    
     
                     .socialIcon{
                         display: flex;
-                        width: 30px;
-                        height: 30px;
+                        width: 25px;
+                        height: 25px;
                         background-color: #509399;
                         border-radius: 50%;
                         justify-content: center;
                         align-items: center;
                         color: white;
+                        
                     }
                 }
             }

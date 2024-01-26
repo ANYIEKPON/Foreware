@@ -8,10 +8,12 @@ import { LuFacebook } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FaLinkedinIn, FaGooglePlusG } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import Link from 'next/link';
 
 const Header = () => {
 const [openNav, setOpenNav] = useState(false);
+const [openSubMnu, setSubMenu] = useState(false);
 
   return (
     <div className={styles.wrapper}>
@@ -22,7 +24,14 @@ const [openNav, setOpenNav] = useState(false);
           <div className={openNav ? styles.showMenu : styles.nav_menu}>
             <Link href="/" className="link"><span>Home</span></Link>
             <Link href="/" className="link"><span>About Us</span></Link>
-            <Link href="/" className="link"><span>Services</span></Link>
+            <div className={styles.submenu}>
+              <span className={styles.menuHover} onClick={() => setSubMenu(!openSubMnu)}>Services {openSubMnu ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
+              <div className={openSubMnu ? styles.subnav : styles.noSubnav}>
+                <Link href="/services" className="link"><span>Web Development</span></Link>
+                <Link href="/services" className="link"><span>ERP Solutions</span></Link>
+                <Link href="/services" className="link"><span>Cloud Operations</span></Link>
+              </div>
+            </div>
             <Link href="/" className="link"><span>Industries</span></Link>
             <Link href="/" className="link"><span>Contact Us</span></Link>
             {
@@ -31,7 +40,7 @@ const [openNav, setOpenNav] = useState(false);
               <div className={styles.socialIcon}><RiTwitterXFill /></div>
               <div className={styles.socialIcon}><FaLinkedinIn /></div>
               <div className={styles.socialIcon}><FaGooglePlusG /></div>
-              <span>info@forewaretechnologies.com</span>
+              <span className={styles.info}>info@forewaretechnologies.com</span>
             </div>
             }
           </div>
