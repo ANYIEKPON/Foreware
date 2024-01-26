@@ -31,6 +31,7 @@ const [openNav, setOpenNav] = useState(false);
               <div className={styles.socialIcon}><RiTwitterXFill /></div>
               <div className={styles.socialIcon}><FaLinkedinIn /></div>
               <div className={styles.socialIcon}><FaGooglePlusG /></div>
+              <span>info@forewaretechnologies.com</span>
             </div>
             }
           </div>

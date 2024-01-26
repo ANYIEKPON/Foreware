@@ -61,6 +61,7 @@ const Footer = () => {
         </div>
         <div className={styles.bottom}>
           <p>&copy; Copyright 2023 - <span>Foreware</span></p>
+          <span>info@forewaretechnologies.com</span>
           <div className={styles.socialMedia}>
             <div className={styles.socialIcon}><LuFacebook /></div>
             <div className={styles.socialIcon}><RiTwitterXFill /></div>
