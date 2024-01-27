@@ -14,35 +14,29 @@ const Footer = () => {
       <div className={styles.wrapper}>
         <div className={styles.top}>
           <div className={styles.one}>
-              <div className={styles.footerImg}><Image className={styles.imgFooter} src={logo} alt="Logo" /></div>
+              <div className={styles.chooseUs}>Why Choose Us</div>
               <div className={styles.footerText}>
                   <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
-                      ab illo inventore veritatis et quasi architecto beatae vitae dicta 
-                      sunt explicabo. Nemo enim ipsam voluptatem.
+                  We understand that your company depends on the capabilities of  ERP and Cloud Solutions of your IT systems. Foreware Technologies delivers IT Solutions services such...<Link href="/why-choose-us" className="link"> <span>Read More</span></Link>
                   </p>
                 </div>
           </div>
           <div className={styles.two}>
             <h4>Services</h4>
             <div className={styles.servics}>
-                <span>Startup</span>
+                <span>Web Develoment</span>
                 {/* <span>Co-working</span> */}
                 <span>Agency</span>
                 <span>Apps</span>
-                <span>Others</span>
-                <span>Cyber Security</span>
+                <Link href="/services" className="link" style={{color: "#e48913"}}><span>More</span></Link>
             </div>
           </div>
           <div className={styles.two}>
             <h4>Pages</h4>
             <div className={styles.servics}>
                 <span>About Us</span>
-                <span>Our Team</span>
-                <span>FAQs</span>
-                <span>News</span>
-                <span>Gallary</span>
+                <span>Services</span>
+                <span>Contact Us</span>
             </div>
           </div>
           {/* <div className={styles.three}>

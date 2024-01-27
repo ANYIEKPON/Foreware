@@ -23,7 +23,7 @@ const [openSubMnu, setSubMenu] = useState(false);
           </div>
           <div className={openNav ? styles.showMenu : styles.nav_menu}>
             <Link href="/" className="link"><span>Home</span></Link>
-            <Link href="/" className="link"><span>About Us</span></Link>
+            <Link href="/about-us" className="link"><span>About Us</span></Link>
             <div className={styles.submenu}>
               <span className={styles.menuHover} onClick={() => setSubMenu(!openSubMnu)}>Services {openSubMnu ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
               <div className={openSubMnu ? styles.subnav : styles.noSubnav}>

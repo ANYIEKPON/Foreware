@@ -22,14 +22,9 @@
                 flex: 3;
                 gap: 15px;
 
-                .footerImg{
-                    display: flex;
-                    justify-content: flex-start;
-                    object-fit: contain;
-                    .imgFooter{
-                        width: 150px;
-                        height: 80px;
-                    }
+                .chooseUs{
+                    font-size: 18px;
+                    color: #bc7920;
                 }
 
                 .footerText{
@@ -38,6 +33,10 @@
                         line-height: 25px;
                         color: rgb(148, 146, 146);
                         font-size: 15px;
+
+                        span{
+                            color: #e48913;
+                        }
                     }
                 }
             }
