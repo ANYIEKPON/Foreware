@@ -33,7 +33,8 @@ const [openSubMnu, setSubMenu] = useState(false);
               </div>
             </div>
             <Link href="/" className="link"><span>Industries</span></Link>
-            <Link href="/" className="link"><span>Contact Us</span></Link>
+            {/* <Link href="/" className="link"><span>Why Choose Us</span></Link> */}
+            <Link href="/contact-us" className="link"><span>Contact Us</span></Link>
             {
               openNav && <div className={styles.socialMedia}>
               <div className={styles.socialIcon}><LuFacebook /></div>
