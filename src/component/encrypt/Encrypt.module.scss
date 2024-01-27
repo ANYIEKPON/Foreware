@@ -90,7 +90,10 @@
         
     }
 
-   
+   span{
+    font-size: 20px;
+    color: #e9c473;
+   }
 }
 
 $small: 475px;
@@ -192,5 +195,10 @@ $veryBig: 1536px;
     
             
         }
+
+        span{
+            font-size: 18px;
+            color: #e9c473;
+           }
     }
 }

@@ -30,8 +30,10 @@ const Encrypt = () => {
                 </div>
                 <input className={styles.btn} type="submit" />
             </form>
+
           </div>
         </div>
+        <span>Thanks for submitting!</span>
     </div>
   )
 }
