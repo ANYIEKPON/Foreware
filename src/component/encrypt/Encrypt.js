@@ -6,19 +6,31 @@ import encrypt from '../../../public/encrypt.png';
 const Encrypt = () => {
   return (
     <div className={styles.encrypt}>
-        <div className={styles.leftEncrypt}>
-            {/* <Image className={styles.encryptImg} src={encrypt} alt="To encrypt" /> */}
-        </div>
-        <div className={styles.rightEncrypt}>
-            <h1>Data security with <span>256-bit</span> encryption</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                cillum dolore eu fugiat nulla pariatur. 
+        <div className={styles.ccntact}>
+            <h3>Ready to find more</h3>
+            <p>
+              Our staff are available to provide advice and respond to your specific questions. Please email us by following the form below:
             </p>
-            <button>Get Started</button>
+        </div>
+        <div className={styles.contactFrm}>
+          <h3>Contact Us</h3>
+          <div className={styles.div}>
+            <form className={styles.form}>
+                <div className={styles.formInput}>
+                  <label>Enter Your Name *</label>
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div className={styles.formInput}>
+                  <label>Enter Your Email *</label>
+                  <input type="email" placeholder="Email" />
+                </div >
+                <div className={styles.formInput}>
+                  <label>Type your Message Here.</label>
+                  <input type="text" placeholder="Message" className={styles.formInputMessage} />
+                </div>
+                <input className={styles.btn} type="submit" />
+            </form>
+          </div>
         </div>
     </div>
   )
