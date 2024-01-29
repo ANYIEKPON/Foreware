@@ -1,17 +1,38 @@
-import React from 'react';
+'use client';
+import React, { useState, useEffect } from 'react';
 import styles from '../encrypt/Encrypt.module.scss';
 import Image from 'next/image';
 import encrypt from '../../../public/encrypt.png';
 
 const Encrypt = () => {
+
+  const [show, setShow] = useState(false);
+  const location = window.location.pathname;
+  console.log(location);
+
+  useEffect(() => {
+    const load = () => {
+      if(location === "/contact-us"){ 
+        setShow(true);
+      } else{
+        setShow(false);
+      };
+    }
+    load();
+  }, [show]);
+
   return (
     <div className={styles.encrypt}>
-        <div className={styles.ccntact}>
-            <h3>Ready to find more</h3>
-            <p>
-              Our staff are available to provide advice and respond to your specific questions. Please email us by following the form below:
-            </p>
-        </div>
+        {
+          show && (
+            <div className={styles.ccntact}>
+              <h3>Ready to find more</h3>
+              <p>
+                Our staff are available to provide advice and respond to your specific questions. Please email us by following the form below:
+              </p>
+            </div>
+          )
+        }
         <div className={styles.contactFrm}>
           <h3>Contact Us</h3>
           <div className={styles.div}>
