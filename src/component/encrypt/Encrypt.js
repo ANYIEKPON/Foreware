@@ -7,10 +7,10 @@ import encrypt from '../../../public/encrypt.png';
 const Encrypt = () => {
 
   const [show, setShow] = useState(false);
-  const location = window.location.pathname;
-  console.log(location);
+  const location = typeof window !== "undefined" && window.location.pathname;
 
   useEffect(() => {
+    
     const load = () => {
       if(location === "/contact-us"){ 
         setShow(true);
