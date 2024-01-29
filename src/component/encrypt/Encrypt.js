@@ -13,9 +13,9 @@ const Encrypt = () => {
     
     const load = () => {
       if(location === "/contact-us"){ 
-        setShow(true);
-      } else{
         setShow(false);
+      } else{
+        setShow(true);
       };
     }
     load();
