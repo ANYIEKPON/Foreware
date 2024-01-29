@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className={styles.contact}>
        <div className={styles.bckImage}></div>
-       <span className={styles.contactText}> HOME <span>&gt;&gt;</span> CONTACT</span>
+       <span className={styles.contactText}> CONTACT</span>
         <Encrypt />
       
     </div>
