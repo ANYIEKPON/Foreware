@@ -36,7 +36,7 @@ const handleClose = () => {
           <div className={openNav ? styles.showMenu : styles.nav_menu}>
             <Link href="/" className="link" onClick={handleClose} ><span>Home</span></Link>
             <Link href="/about-us" className="link" onClick={handleClose}><span>About Us</span></Link>
-            <Link href="/about-us" className="link" onClick={handleClose}><span>Services</span></Link>
+            <Link href="/services" className="link" onClick={handleClose}><span>Services</span></Link>
             {/* <div className={styles.submenu}>
               <span className={styles.menuHover} onClick={() => setSubMenu(!openSubMnu)}>Services {openSubMnu ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
               <div className={openSubMnu ? styles.subnav : styles.noSubnav}>
