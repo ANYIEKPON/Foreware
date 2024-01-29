@@ -76,6 +76,11 @@
     
                     .formInputMessage{
                         width: 1180px;
+                      
+                        border: none;
+                        outline: none;
+                        padding: 10px 10px;
+                        border-radius: 5px;
                     }
                     label{
                         color: white;
@@ -185,6 +190,10 @@ $veryBig: 1536px;
         
                         .formInputMessage{
                             width: 300px;
+                            border: none;
+                            outline: none;
+                            padding: 10px;
+                            border-radius: 5px;
                         }
                     }
         

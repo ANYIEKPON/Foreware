@@ -47,7 +47,7 @@ const Encrypt = () => {
                 </div >
                 <div className={styles.formInput}>
                   <label>Type your Message Here.</label>
-                  <input type="text" placeholder="Message" className={styles.formInputMessage} />
+                  <textarea placeholder="Message" rows="5" cols="30"  className={styles.formInputMessage} />
                 </div>
                 <input className={styles.btn} type="submit" />
             </form>
