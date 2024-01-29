@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <div className={styles.aboutUs}>
         <div className={styles.aboutImage}></div>
-        <span className={styles.abt}>HOME ABOUT US</span>
+        <span className={styles.abt}>HOME <span>&gt;&gt;</span> ABOUT US</span>
         <div className={styles.aboutWrapper}>
           <div className={styles.abtTxt}>
             <div>
