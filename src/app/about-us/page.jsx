@@ -12,7 +12,7 @@ const AboutUs = () => {
         <div className={styles.aboutWrapper}>
           <div className={styles.abtTxt}>
             <div className={styles.abtTextTop}>
-              <Image src={company} className={styles.immg} />
+              <Image src={company} className={styles.immg} alt="" />
               <h3>Who We are?</h3>
             </div>
             <p>
@@ -21,7 +21,7 @@ const AboutUs = () => {
           </div>
           <div className={styles.abtTxt}>
             <div className={styles.abtTextTop}>
-              <Image src={company} className={styles.immg} />
+              <Image src={company} className={styles.immg} alt="" />
               <h3>Know Us</h3>
             </div>
             <p>
@@ -30,11 +30,11 @@ const AboutUs = () => {
           </div>
           <div className={styles.abtTxt}>
             <div className={styles.abtTextTop}>
-              <Image src={company} className={styles.immg} />
+              <Image src={company} className={styles.immg} alt="" />
               <h3>Misson</h3>
             </div>
             <ul className={styles.list}>
-              <li>To optimize organizations' businesses processes on integrated enterprise solutions and seamless cloud transition for customers satisfaction and increase in revenue. </li>
+              <li>To optimize organizations&apos; businesses processes on integrated enterprise solutions and seamless cloud transition for customers satisfaction and increase in revenue. </li>
               <li> Customers&#180; Performance;</li>
               <li> Training and empowerment of Professionals adding to the process of Foreware Technologies        knowledge base. 
               </li>
@@ -42,7 +42,7 @@ const AboutUs = () => {
           </div>
           <div className={styles.abtTxt}>
             <div className={styles.abtTextTop}>
-              <Image src={company} className={styles.immg} />
+              <Image src={company} className={styles.immg} alt="" />
               <h3>Vision</h3>
             </div>
             <p>
