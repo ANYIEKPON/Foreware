@@ -14,7 +14,7 @@ import Link from 'next/link';
 const Header = () => {
 const [openNav, setOpenNav] = useState(false);
 const [openSubMnu, setSubMenu] = useState(false);
-// const [closeNav, setCloseNav] = useState(true);
+// const [active, setActive] = useState(false);
 
 const handleClose = () => {
   setOpenNav(!openNAv);

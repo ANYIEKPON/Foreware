@@ -66,6 +66,78 @@
         }
     }
 
+
+}
+
+.navb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(252, 248, 248);
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        
+        
+
+        .nav_logo{
+            
+            .img{
+                height: 70px;
+                width: 150px;
+                text-decoration: none;
+            }
+        }
+        .nav_menu{
+            display: flex;
+            gap: 35px;
+            font-size: 15px;
+            color: #bc7920;
+            font-weight: 300;
+            
+            .submenu{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                
+                .menuHover{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    cursor: pointer;
+
+                }
+                .subnav{
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    width: 160px;
+                    background-color: white;
+                    color: #f5c689;
+                    left: 0px;
+                    top: 30px;
+                    gap: 7px;
+                    padding: 25px;
+                    border-radius: 7px;
+                }
+                .noSubnav{
+                    display: none;
+                }
+            }
+        }
+
+        .breadMenu{
+            display: none;
+        }
+    }
+
+
 }
 
 $small: 475px;
