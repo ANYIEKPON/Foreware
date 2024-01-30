@@ -32,23 +32,19 @@ const Service = () => {
                 <Link href="/services" className="link"><span className={styles.learn}>+ Learn More</span></Link>
             </div>
             <div className={styles.first}>
-                <Image src={marketing} alt="analytics" className={styles.firstImg} />
-                <h3>Website Design</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus 
-                    error sit voluptatem accusantium doloremque 
-                    laudantium, totam rem.
-                </p>
+            <FcCustomerSupport className={styles.firstImg} />
+                <h3>Migration</h3>
+                <p>Keep your fears at bay</p>
+                <Link href="/services" className="link"><span className={styles.learn}>+ Learn More</span></Link>
             </div>
             <div className={styles.first}>
-                <Image src={analytcs} alt="analytics" className={styles.firstImg} />
-                <h3>Website Design</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus 
-                    error sit voluptatem accusantium doloremque 
-                    laudantium, totam rem.
-                </p>
+            <FcCustomerSupport className={styles.firstImg} />
+                <h3>Managed Services</h3>
+                <p>Cloud Management made easy</p>
+                <Link href="/services" className="link"><span className={styles.learn}>+ Learn More</span></Link>
             </div>
         </div>
-        <button>More Features</button>
+        <Link className="link" href="/services"><button>More Features</button></Link>
     </div>
   )
 }

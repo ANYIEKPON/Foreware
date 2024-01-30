@@ -133,7 +133,7 @@ $veryBig: 1536px;
            flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 90%;
+            width: 80%;
             padding: 30px 0px;
             gap: 30px;
     
@@ -145,8 +145,8 @@ $veryBig: 1536px;
                 -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
                 box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
                 background-color: #e2e4e4;
-                padding: 15px 40px;
-                width: 80%;
+                padding: 15px 20px;
+                width: 75%;
                     border-radius: 10px;
     
     
@@ -169,14 +169,14 @@ $veryBig: 1536px;
                     p{
                         color: #666768;
                         line-height:25px;
-                        font-size: 16px;
+                        font-size: 12px;
                     }
     
                     .list{
                         display: flex;
                         flex-direction: column;
                         line-height: 25px;
-                        font-size: 16px;
+                        font-size: 122px;
                         color: #666768;
                     }
                } 
