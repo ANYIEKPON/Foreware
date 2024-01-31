@@ -12,7 +12,7 @@ const AboutUs = () => {
         <div className={styles.aboutWrapper}>
           <div className={styles.abtTxt}>
             <div className={styles.abtTextTop}>
-              <Image src={company} className={styles.immg} alt="" />
+              {/* <Image src={company} className={styles.immg} alt="" /> */}
               <h3>Who We are?</h3>
             </div>
             <p>
@@ -21,7 +21,7 @@ const AboutUs = () => {
           </div>
           <div className={styles.abtTxt}>
             <div className={styles.abtTextTop}>
-              <Image src={company} className={styles.immg} alt="" />
+              {/* <Image src={company} className={styles.immg} alt="" /> */}
               <h3>Know Us</h3>
             </div>
             <p>
@@ -30,7 +30,7 @@ const AboutUs = () => {
           </div>
           <div className={styles.abtTxt}>
             <div className={styles.abtTextTop}>
-              <Image src={company} className={styles.immg} alt="" />
+              {/* <Image src={company} className={styles.immg} alt="" /> */}
               <h3>Misson</h3>
             </div>
             <ul className={styles.list}>
@@ -42,7 +42,7 @@ const AboutUs = () => {
           </div>
           <div className={styles.abtTxt}>
             <div className={styles.abtTextTop}>
-              <Image src={company} className={styles.immg} alt="" />
+              {/* <Image src={company} className={styles.immg} alt="" /> */}
               <h3>Vision</h3>
             </div>
             <p>
