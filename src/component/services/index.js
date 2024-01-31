@@ -26,19 +26,19 @@ const Service = () => {
         </div>
         <div className={styles.down}>
             <div className={styles.first}>
-                <FcCustomerSupport className={styles.firstImg} />
+                {/* <FcCustomerSupport className={styles.firstImg} /> */}
                 <h3>Product Support</h3>
                 <p>We provide 24x7 support</p>
                 <Link href="/services" className="link"><span className={styles.learn}>+ Learn More</span></Link>
             </div>
             <div className={styles.first}>
-            <FcCustomerSupport className={styles.firstImg} />
+            {/* <FcCustomerSupport className={styles.firstImg} /> */}
                 <h3>Migration</h3>
                 <p>Keep your fears at bay</p>
                 <Link href="/services" className="link"><span className={styles.learn}>+ Learn More</span></Link>
             </div>
             <div className={styles.first}>
-            <FcCustomerSupport className={styles.firstImg} />
+            {/* <FcCustomerSupport className={styles.firstImg} /> */}
                 <h3>Managed Services</h3>
                 <p>Cloud Management made easy</p>
                 <Link href="/services" className="link"><span className={styles.learn}>+ Learn More</span></Link>
