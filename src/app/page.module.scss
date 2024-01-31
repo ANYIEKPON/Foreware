@@ -73,6 +73,17 @@
     
             .rightside{
                 flex: 3;
+                width: 700px;
+                background-color: #f6f7ff;
+
+                .pageImge{
+                    width: 800px;
+                    height: 500px;
+                    filter: blur(1px);
+                    border-radius: 100px;
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                }
             }
         }
 
@@ -175,15 +186,22 @@ $veryBig: 1536px;
                     width: 300px;
                     height: 300px;
                     object-fit: contain;
-                    padding-bottom: 40px;
+                    padding-bottom: 0px;
+                    background-color: #f6f7ff;
 
                     .pageImge{
                         width: 340px;
-                        height: 400px;
+                        height: 300px;
                         margin: 0 auto;
+                        filter: blur(1px);
+                        border-radius: 30px;
+                        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
                     }
 
                 }
+
+                
             }
 
             .secondSection{

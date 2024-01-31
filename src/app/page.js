@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.scss';
-import pic from "../../public/1.png"
+import pic from "../../public/besst.webp"
 import Service from '../component/services';
 import Encrypt from '../component/encrypt/Encrypt';
 import Link from 'next/link';
