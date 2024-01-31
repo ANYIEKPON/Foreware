@@ -1,4 +1,5 @@
 'use client';
+'use client'
 import React, { useState, useEffect } from 'react';
 import styles from '../encrypt/Encrypt.module.scss';
 import Image from 'next/image';

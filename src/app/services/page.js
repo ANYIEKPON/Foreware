@@ -1,8 +1,13 @@
 import React from 'react'
+import Service from '../../component/service/Service';
+import styles from "../services/pageService.module.scss";
+
 
 const Services = () => {
   return (
-    <div>services</div>
+    <div>
+      <Service />
+    </div>
   )
 }
 

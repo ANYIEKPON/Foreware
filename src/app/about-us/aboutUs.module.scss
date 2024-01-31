@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color: #f6f7ff;
 
     .aboutImage{
         display: flex;
@@ -47,7 +48,7 @@
             align-items: flex-start;
             -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
             box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-            background-color: #e2e4e4;
+            background-color: white;
             padding: 15px 40px;
             width: 42%;
                 border-radius: 10px;
